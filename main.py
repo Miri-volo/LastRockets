@@ -1,5 +1,3 @@
-from time import sleep
-
 import requests
 import pandas as pd
 
@@ -23,7 +21,6 @@ def get_data(cities):
         request = requests.get(url)
         request.raise_for_status()
         jsonFormat = request.json()
-        print(jsonFormat)
         for item in jsonFormat:
             if item.get('category_desc') == 'ירי רקטות וטילים':
                 if ',' in item['data']:

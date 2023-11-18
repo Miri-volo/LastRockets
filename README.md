@@ -1,7 +1,7 @@
 # LastRockets
-Last rocket statistics: generate an Excel file from 07.10.2023.
+Last rocket statistics from the war in Israel from 07.10.2023: generate an Excel file.
 ## Quick-Start Guide
-
+(Works only in Insrael)
 It is recommended to use Python 3.11.4.
 
 1. Clone this repository
